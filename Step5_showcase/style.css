@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: red;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;      
+    height: auto;
+    border: 1px solid #030303;
+}
+
+footer {
+    background: red;
+    width: 100%;
+    height: auto;
+    border:1px solid #030303;
+}
+
+.main-nav,
+.showcase {
+    background: #cccccc;
+    width: 100%;
+    height:60px;
+    border: 1px solid  #000;
+}
+
+.home-cards,
+.ruban,
+.follow,
+.links,
+.sub-footer,
+#bigData-intro {
+    background: #d3eaac;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.main-nav {
+    background: #fff;
+    height: auto ;
+    padding: 20px 0;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav .logo {
+    width: 110px;
+}
+
+.main-nav .main-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.main-nav li {
+    margin-right: 10px;
+}
+
+.main-nav a {
+    color: #262626;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav a:hover {
+    border-bottom: 2px solid #000;
+}
+
+.showcase {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    background-image: url("/img/slide1.png");  
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 30%;
+    background-clip: content-box;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.showcase h2,
+.showcase p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #378ff5;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.dark {
+    color: #fff;
+}
+
+.dark .btn {
+    background: #f4f4f4;
+    color: #333;
+}
